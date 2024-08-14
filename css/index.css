@@ -1,4 +1,29 @@
-*{
-    color:pink;
-    height:2rem;
+body{
+    background-image: url("../resources/background.png");
+    background-repeat: none;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center;
+    background-attachment: fixed;
+    color:violet;
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.profile-pic{
+    display: block;
+    margin: 10rem 109rem;
+    width: 18rem;
 }
